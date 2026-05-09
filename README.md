@@ -21,7 +21,7 @@ This project aims to provide a clear, step-by-step roadmap for citizens to:
 ## ✨ Features
 
 - **Professional Editorial Design:** A serious, civic-focused aesthetic utilizing clear typography and semantic status colors.
-- **Multi-language Support (i18n):** Instantly switch between **English**, **Telugu (తె)**, and **Hindi (हि)** without reloading the page. Uses localized Google Noto Sans fonts for crisp rendering.
+- **Multi-language Support (i18n):** Instantly switch between **English**, **Telugu (తె)**, Urdu (اُرْدُو) and **Hindi (हि)** without reloading the page. Uses localized Google Noto Sans fonts for crisp rendering.
 - **Fully Responsive:** Mobile-first layout with a custom hamburger menu and responsive spacing.
 - **Zero Dependencies:** Built using vanilla HTML, CSS, and JavaScript. Extremely fast and lightweight.
 
