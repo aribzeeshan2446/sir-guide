@@ -894,3 +894,30 @@ a {
     display: none;
   }
 }
+
+/* RTL Support for Urdu */
+[dir="rtl"] .primary-nav {
+  margin-left: 0;
+  margin-right: 0;
+}
+[dir="rtl"] .nav-links a::after {
+  left: auto;
+  right: 0;
+}
+[dir="rtl"] .lang-switcher {
+  margin-left: 0;
+  margin-right: 20px;
+}
+@media (max-width: 768px) {
+  [dir="rtl"] .lang-switcher {
+    margin-right: 0;
+  }
+}
+[dir="rtl"] .action-box {
+  border-left: none;
+  border-right: 3px solid var(--c-caution);
+  border-radius: var(--radius) 0 0 var(--radius);
+}
+[dir="rtl"] .hero h1, [dir="rtl"] .hero p, [dir="rtl"] .scenario h3 {
+  line-height: 1.8;
+}
